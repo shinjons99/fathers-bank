@@ -19,10 +19,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     
     //* Do not verify email password on the client side 
     //* step-4: verify email and password and check whether valid user or not
-    if(email === 'spmtam@baap.com' && password === 'secret'){
-        console.log('valid user');
+    if(email === 'sontan@baap.com' && password === 'secret'){
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('invalid user');
+        alert(' tui password vule gasos.Toke ami Teijjo sontan gosona korlam.')
     }
 })
